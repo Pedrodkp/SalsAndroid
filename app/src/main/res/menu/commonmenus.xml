@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fullscreen"
+        android:layout_below="@+id/activity_main_webview"
+        android:checkable="false"
+        android:enabled="true"
+        android:icon="@drawable/fullscreen"
+        android:title="fullscreen"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+</menu>
